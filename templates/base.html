@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Simple Calculator!</h1>
+        <p>Let's start calculating!</p>
+        <a href="{{ url_for('home') }}" target="_blank"> <!-- Link to home.html -->
+            <button class="calculator-button">Go to Calculator</button>
+        </a> <!-- Added button -->
+    </div>
+</body>
+</html>
