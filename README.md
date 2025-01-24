@@ -43,7 +43,9 @@ cd simple-calculator
 2. Set Up Python Environment
 Create a virtual environment (optional but recommended):
 
-
+```bash
+Copy
+Edit
 python -m venv venv
 source venv/bin/activate    # For Linux/Mac
 venv\Scripts\activate       # For Windows
@@ -61,35 +63,28 @@ bash
 Copy
 Edit
 python app.py
-
-
-<h3> 5. Open the Application <\h3>
+5. Open the Application
 Navigate to:
 
-
+arduino
+Copy
+Edit
 http://127.0.0.1:5000/
-
-
 Usage
-
-1. Open the web application in your browser.
-2. Enter numbers into the input fields.
-3. Select an arithmetic operation (+, -, *, /) from the dropdown menu.
-4. Click the Calculate button to view the result.
-5. Use the Clear button to reset the input fields and results.
-
-
+Open the web application in your browser.
+Enter numbers into the input fields.
+Select an arithmetic operation (+, -, *, /) from the dropdown menu.
+Click the Calculate button to view the result.
+Use the Clear button to reset the input fields and results.
 Contributing
-
 Contributions are welcome!
-
 If you'd like to enhance the project, follow these steps:
 
-1. Fork the repository.
-2. Create a new feature branch (git checkout -b feature-name).
-3. Commit your changes (git commit -m "Add feature").
-4. Push to the branch (git push origin feature-name).
-5. Open a pull request.
+Fork the repository.
+Create a new feature branch (git checkout -b feature-name).
+Commit your changes (git commit -m "Add feature").
+Push to the branch (git push origin feature-name).
+Open a pull request.
 
 
 
