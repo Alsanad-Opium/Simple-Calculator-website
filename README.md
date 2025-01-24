@@ -37,8 +37,8 @@ Follow these steps to set up and run the project on your local machine:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/<your-username>/simple-calculator.git
-cd simple-calculator
+git clone https://github.com/<your-username>/simple-calculator.git ```
+
 
 2. Set Up Python Environment
 Create a virtual environment (optional but recommended):
@@ -48,29 +48,34 @@ Copy
 Edit
 python -m venv venv
 source venv/bin/activate    # For Linux/Mac
-venv\Scripts\activate       # For Windows
+venv\Scripts\activate       # For Windows```
+
 3. Install Dependencies
 Install Flask to serve the application:
 
-bash
+```bash
 Copy
 Edit
-pip install flask
+pip install flask```
+
 4. Run the Flask Server
 Start the Flask server to host the application:
 
-bash
+```bash
 Copy
 Edit
-python app.py
+python app.py```
 5. Open the Application
+
 Navigate to:
 
-arduino
+```arduino
 Copy
 Edit
-http://127.0.0.1:5000/
+http://127.0.0.1:5000/```
+
 Usage
+
 Open the web application in your browser.
 Enter numbers into the input fields.
 Select an arithmetic operation (+, -, *, /) from the dropdown menu.
